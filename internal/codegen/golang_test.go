@@ -166,6 +166,7 @@ func TestGoDeclaresContractTypes(t *testing.T) {
 	assert.Regexp(t, `StatusOpen\s+Status = 0`, got)
 	assert.Regexp(t, `StatusClosed\s+Status = 1`, got)
 }
+
 // TestNewClient covers NewClient generation and invocation methods for the Go client.
 func TestNewClient(t *testing.T) {
 	t.Parallel()
